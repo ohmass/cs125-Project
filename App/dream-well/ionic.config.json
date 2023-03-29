@@ -1,0 +1,7 @@
+{
+  "name": "DreamWell",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

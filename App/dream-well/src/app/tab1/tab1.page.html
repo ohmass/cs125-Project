@@ -1,0 +1,27 @@
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="header">Bedtime Stats</div>
+  <div class="divider"></div>
+  <div class="button-container">
+    <button [ngClass]="{'active': selectedButton === 'days'}" (click)="selectButton('days')">Days</button>
+    <button class="middle-button" [ngClass]="{'active': selectedButton === 'weeks'}"
+      (click)="selectButton('weeks')">Weeks</button>
+    <button [ngClass]="{'active': selectedButton === 'months'}" (click)="selectButton('months')">Months</button>
+  </div>
+  <div class="divider"></div>
+  
+  <div class="chart-title">Sleep Quality</div>
+  <div class="chart-container">
+    <canvas #qualityChart></canvas>
+  </div>
+  
+  <div class="divider"></div>
+
+  <div class="chart-title">Sleep Duration</div>
+  <div class="chart-container">
+    <canvas #sleepDuration></canvas>
+  </div>
+
+  <div class="divider"></div>
+  <ion-button class="add-sleep-data-button" expand="block">Add Sleep Data</ion-button>
+
+</ion-content>

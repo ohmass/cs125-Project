@@ -1,0 +1,33 @@
+img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#center_text {
+    text-align: center;
+}
+
+ion-card {
+  --background: #000000;
+  --color: #FFFFFF;
+}
+
+#inner_card {
+  --background: #2b2b2b !important;
+  --text-color: #FFFF;
+}
+
+ion-item {
+  --padding-start: 0;
+}
+
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+}

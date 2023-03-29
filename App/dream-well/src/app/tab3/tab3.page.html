@@ -1,0 +1,66 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>
+      Dreamer Profile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true"  class="has-header" >
+  <ion-grid  class="center-grid">
+
+    <ion-row  id="center_text">
+      <ion-col>
+        <ion-text>
+          <h1>Hello, Dreamer!</h1>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <img src="https://ocsportszone.com/wp-content/uploads/2019/03/190315-Anteater-001.jpg" alt="User Profile Picture">
+      </ion-col>
+    </ion-row> 
+
+    <ion-row>
+      <ion-col> <div id="center_text">Age: 21</div></ion-col>
+      <ion-col> <div id="center_text">Gender: Female </div></ion-col>
+    </ion-row> 
+
+    <ion-row>
+      <ion-col>
+        <ion-card >
+                <ion-card id="inner_card">
+                  <ion-card-header>
+                    <ion-card-title> Notifications 
+                      <ion-icon name="notifications"></ion-icon>
+                    </ion-card-title>
+                    <ion-card-subtitle color="#FFFF"> Don't miss out on news from us. </ion-card-subtitle>
+                  </ion-card-header>
+                  <ion-button fill="clear"><ion-icon name="chevron-forward-outline"></ion-icon></ion-button>
+                </ion-card>
+                <ion-card id="inner_card">
+                  <ion-card-header>
+                    <ion-card-title> Edit Profile 
+                      <ion-icon name="person-circle-outline"></ion-icon> 
+                    </ion-card-title>
+                    <ion-card-subtitle color="#FFFF"> Make changes to your profile. </ion-card-subtitle>
+                  </ion-card-header>
+                  <ion-button fill="clear"><ion-icon name="chevron-forward-outline"></ion-icon></ion-button>
+                </ion-card>
+                <ion-card id="inner_card">
+                  <ion-card-header>
+                    <ion-card-title> Log Out 
+                      <ion-icon name="exit-outline"></ion-icon> 
+                    </ion-card-title>
+                    <ion-card-subtitle color="#FFFF"> Sign out to another account. </ion-card-subtitle>
+                  </ion-card-header>
+                  <ion-button fill="clear"><ion-icon name="chevron-forward-outline"></ion-icon></ion-button>
+                </ion-card>
+        </ion-card>
+      </ion-col>
+    </ion-row> 
+    <ion-row><ion-col></ion-col></ion-row>
+  </ion-grid>
+</ion-content>

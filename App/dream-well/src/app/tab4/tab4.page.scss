@@ -1,0 +1,45 @@
+.header {
+  font-size: 22px;
+  margin-top: 30px;
+  padding-left: 8px;
+  padding-right: 10px;
+  margin-bottom: 8px;
+  text-align: left;
+  display: block;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ededed;
+  margin: 10px 8px 10px;
+}
+
+ion-grid {
+  &.center-grid {
+    position: relative;
+    display: block;
+    width: 105%;
+
+  }
+
+  ion-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -8px;
+  }
+}
+
+ion-card {
+  --background: #8977CE;
+  --color: #FFFFFF;
+}
+
+ion-card-subtitle {
+  --color: #FFFFFF;
+}
+
+.bottom-button {
+  width: 100%;
+  margin: 16px;
+}
